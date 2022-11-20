@@ -1,0 +1,38 @@
+.gold-mined{
+    color: yellow;
+    font-size: larger;
+}
+
+.fit-picture{
+    width: 250px
+}
+
+.fit-picture:active{
+    width: 275px
+}
+
+.btn{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+div{
+    margin: 15px;
+}
+
+button{
+    color: white;
+    background-color: rgb(70, 70, 70);
+    
+}
+
+body{ /* no . means element type */
+    text-align: center /* text-align centers text AND children */;
+    background-color: gray;
+}
+
+*{ /* * applies to all elements, use with caution */
+    outline: none;
+    font-size: large;
+}

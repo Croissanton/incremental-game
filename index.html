@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gold Miner</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p id="goldMined" class="gold-mined">0 Gold Mined</p>
+    <div id="navigateButtons">
+      <button onclick="tab('mineGoldMenu')">Go to Mine Gold</button>
+      <button onclick="tab('shopMenu')">Go to Shop</button>
+      <button onclick="tab('otherOptions')">Options</button>
+    </div>
+    <div id="mineGoldMenu">
+      <button onclick="mineGold()" class ="btn"><img class="fit-picture" src = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-smiling-face-smiley-png-3896.png&f=1&nofb=1&ipt=9fffedf65c913ca8f7158be80d8aafa0a86bec164037f94cd0760fc3199391a1&ipo=images"
+        ></button>
+    </div>
+    <div id="shopMenu">
+      <button onclick="buyGoldPerClick()" id="perClickUpgrade">Upgrade Pickaxe (Currently Level 1) Cost: 10 Gold</button>
+    </div>
+    <div id="otherOptions">
+      <button onclick="resetGameData()">Reset Data</button>
+      <button onclick="manualSave()">Save Game</button>
+    </div>
+    <script src="main.js" charset="UTF-8" type="text/javascript"></script>
+  </body>
+</html>
